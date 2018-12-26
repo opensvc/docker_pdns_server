@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV VERSION 4.1.1
+ENV VERSION 4.1.5
 LABEL maintainer="support@opensvc.com"
 
 RUN \

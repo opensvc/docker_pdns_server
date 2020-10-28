@@ -1,8 +1,8 @@
-FROM alpine:3.11
+FROM alpine:edge
 
 LABEL maintainer="support@opensvc.com"
 
-RUN apk --update add --no-cache pdns=4.2.1-r0 pdns-backend-remote pdns-backend-mysql
+RUN apk --update add --no-cache pdns=4.3.1-r0 pdns-backend-remote pdns-backend-mysql
 
 EXPOSE 5553/udp 5553/tcp
 
